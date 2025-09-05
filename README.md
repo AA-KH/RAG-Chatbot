@@ -15,15 +15,15 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot that uses FAISS, 
 ---
 
 ## Project Structure
-├── app.py # FastAPI app to serve the chatbot
-├── ingest.py # Script to process and embed documents
-├── frontend.py # Alternative frontend implementation
-├── requirements.txt # Python dependencies
-├── meta.json # Metadata for documents (auto-generated)
-├── index.faiss # FAISS index file (auto-generated)
-├── data/ # Folder to place input documents
-├── models/ # Folder for GPT4All local models
-└── venv/ # Virtual environment (excluded from Git)
+ - app.py # FastAPI app to serve the chatbot
+ - ingest.py # Script to process and embed documents
+ - frontend.py # Alternative frontend implementation
+ - requirements.txt # Python dependencies
+ - meta.json # Metadata for documents (auto-generated)
+ - index.faiss # FAISS index file (auto-generated)
+ - data/ # Folder to place input documents
+ - models/ # Folder for GPT4All local models
+ - venv/ # Virtual environment (excluded from Git)
 
 ## Installation
 1. Clone this repository:
