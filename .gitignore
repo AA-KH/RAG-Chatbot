@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+rag-env/
+.env/
+
+# OS junk
+.DS_Store
+
+# FAISS + meta files (generated)
+index.faiss
+meta.json
+
+# Data & models (keep folder, ignore contents)
+data/*
+models/*
+
+# But allow empty folder placeholders
+!data/.gitkeep
+!models/.gitkeep
