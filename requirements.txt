@@ -1,0 +1,21 @@
+# Core ML + Embeddings
+sentence-transformers
+numpy
+faiss-cpu    # use faiss-gpu if you want CUDA support
+tiktoken
+
+# LLMs
+gpt4all
+
+# Document parsing
+pymupdf      # for fitz (PDFs)
+python-docx  # for Word docs
+
+# Web frameworks
+fastapi
+uvicorn
+pydantic
+
+# UI + Requests
+gradio
+requests
